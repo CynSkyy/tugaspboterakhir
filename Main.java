@@ -1,25 +1,17 @@
 
-package Pertemuan5;
+package Pertemuan2;
 
 public class Main {
     public static void main(String[] args) {
-        persegi pluas = new persegi(5);
-        persegi pkeliling = new persegi(10);
-        lingkaran Lluas = new lingkaran(5);
-        lingkaran Lkeliling = new lingkaran(5);
-        PersegiPanjang PPluas = new PersegiPanjang(10, 5);
-        PersegiPanjang PPkeliling = new PersegiPanjang(10, 5);
-        Setigita LS = new Setigita(5,10);
-        Setigita KS = new Setigita(5,10);
-        
-       
-        pluas.getluas();
-        pkeliling.getkeliling();
-        Lluas.getluas();
-        Lkeliling.getkeliling();
-        PPluas.getluas();
-        PPkeliling.getkeliling();
-        LS.getluas();
-        KS.getkeliling();
+        BUKU buku = new BUKU("Pulang");
+        buku.tampilbuku();
+        BUKU buku2 = new BUKU(2015);
+        buku2.tampilbuku();
+        BUKU buku3 = new BUKU("Tere Liye",2015);
+        buku3.tampilbuku();
+        BUKU buku4 = new BUKU("Pulang","Tere Liye",2015);
+        buku4.tampilbuku();
+            
+
     }
 }
